@@ -1,4 +1,6 @@
 
+### Requirements - the Elephant in the Room!
+
 ## Stages of ZBI Evolution
 
 # On POC Coverage in terms of Implementation Stages
@@ -8,6 +10,7 @@
 4. How does the ZBI roadmap align with upcoming initiatives like new firewall and new Data Centre Network? Which particular points of alignment are required?
 5. What is the service model (e.g. single tennant vs multi-tennant in terms of business unit consumption) and in terms of Security Zone alignment? 
 6. What are the mechanisms of co-existence with the legacy world?
+7. Will ZBI in the Pod of the consumer (e.g. within Omnia) or will it become a POD of its own? (e.g. ODP/Exalogic/Exadata)
 
 # Immediate Stage POD/POC Architecture, Features and POC Requirements
 1. What is the duration of the first/immediate round of POC?

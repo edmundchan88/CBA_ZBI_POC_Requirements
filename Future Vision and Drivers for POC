@@ -1,0 +1,23 @@
+## Stages of Evolution
+
+# On POC Coverage in terms of Implementation Stages
+1. What are the stages envisioned for the ZBI Implementation in terms of features offered and interaction with the legacy world?
+2. Which stages will the POC cover?
+3. How many stages of POC will there be?
+3. In the POC, what features are to be included?
+
+# Immediate Stage POC Features and Requirements
+1. What is the duration of the first/immediate round of POC?
+2. What is the hardware configuration for the POC equipment? 
+3. What are the services in terms of compute capacity?
+4. What are the software parts in terms of computer capacity delivery?
+5 .What are the 
+Auth
+Network
+Storage
+Encryption
+Firewall
+ACL
+Zone model compliance
+Dynamic resource allocation granularity and speed
+Usecases

@@ -1,31 +1,41 @@
-## Stages of Evolution
+
+## Stages of ZBI Evolution
 
 # On POC Coverage in terms of Implementation Stages
 1. What are the stages envisioned for the ZBI POD Implementation in terms of features offered and interaction with the legacy world?
 2. Which stages will the immediate POC cover for the future POD Architecture?
 3. How many stages of POC will there be?
+4. How does the ZBI roadmap align with upcoming initiatives like new firewall and new Data Centre Network? Which particular points of alignment are required?
+5. What is the service model (e.g. single tennant vs multi-tennant in terms of business unit consumption) and in terms of Security Zone alignment? 
+6. What are the mechanisms of co-existence with the legacy world?
 
 # Immediate Stage POD/POC Architecture, Features and POC Requirements
 1. What is the duration of the first/immediate round of POC?
-2. What is the hardware configuration for the POC equipment? 
+2. What is the hardware configuration for the POC equipment? What are the data centre requirement?
 3. What are the services in terms of compute capacity, networking and storage?
 4. What software moving parts are in the POC and how do that work in delivering required services?
-5. How is Security Zone Model enforced?
-6. How is network connectivity done?
+5. How is Security Zone Model enforced? How many zones in POC and in the futrue POD?
+6. How is network connectivity done (both within one site and cross site)?
 7. How is compute capacity delivered?
 8. How is storage service delivered for ephemeral use cases?
 9. How is storage service delivered for persistent use cases?
 10. How is storage encryption done for both HDFS and non HDFS?
 11. How is authorisation done?
-12. What are the boundaries of the POC.
-13. How does the POC represent the future POD?
-Auth
-Network
-Storage
-Encryption
-Firewall
-ACL
-Zone model compliance
-Dynamic resource allocation granularity and speed
-Usecases
-Criteria and why adequate
+12. How is network segregation done?
+13. What are the boundaries of the POC?
+14. How does the POC represent the future POD?
+15. What are the success criteria for the POC?
+16. How do the success ceriteria map back to the feature of the future POD?
+17. How is the cloud control features being authenticated, authorised and protected (as a vital control point)?
+18. What are the resilient features of the POD/POC?
+19. How is DR and HA delivered?
+20. How is dynamic resource re-allocation done and at what granularity and speed?
+21. What are the test cases in the POC and what future POD use cases do these represent?
+22. What are the differences between the POC and corresponding POC in terms of the representativeness of the POC and the choice of equipment?
+
+# Team Composition Related Questions
+1. Do we have network resources engaged?
+2. Who will install and configure hardware for compute, storage & network?
+3. Who will configure and administer these components?
+3. Who are the security team members?
+4. Who is the architect?

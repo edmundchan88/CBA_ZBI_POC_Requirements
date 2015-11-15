@@ -1,17 +1,24 @@
 ## Stages of Evolution
 
 # On POC Coverage in terms of Implementation Stages
-1. What are the stages envisioned for the ZBI Implementation in terms of features offered and interaction with the legacy world?
-2. Which stages will the POC cover?
+1. What are the stages envisioned for the ZBI POD Implementation in terms of features offered and interaction with the legacy world?
+2. Which stages will the immediate POC cover for the future POD Architecture?
 3. How many stages of POC will there be?
-3. In the POC, what features are to be included?
 
-# Immediate Stage POC Features and Requirements
+# Immediate Stage POD/POC Architecture, Features and POC Requirements
 1. What is the duration of the first/immediate round of POC?
 2. What is the hardware configuration for the POC equipment? 
-3. What are the services in terms of compute capacity?
-4. What are the software parts in terms of computer capacity delivery?
-5 .What are the 
+3. What are the services in terms of compute capacity, networking and storage?
+4. What software moving parts are in the POC and how do that work in delivering required services?
+5. How is Security Zone Model enforced?
+6. How is network connectivity done?
+7. How is compute capacity delivered?
+8. How is storage service delivered for ephemeral use cases?
+9. How is storage service delivered for persistent use cases?
+10. How is storage encryption done for both HDFS and non HDFS?
+11. How is authorisation done?
+12. What are the boundaries of the POC.
+13. How does the POC represent the future POD?
 Auth
 Network
 Storage
@@ -21,3 +28,4 @@ ACL
 Zone model compliance
 Dynamic resource allocation granularity and speed
 Usecases
+Criteria and why adequate

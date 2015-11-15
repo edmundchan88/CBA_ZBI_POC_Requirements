@@ -3,7 +3,7 @@
 
 ## Stages of ZBI Evolution
 
-# On POC Coverage in terms of Implementation Stages
+# ZBI Features and POC Features
 1. What are the stages envisioned for the ZBI POD Implementation in terms of features offered and interaction with the legacy world?
 2. Which stages will the immediate POC cover for the future POD Architecture?
 3. How many stages of POC will there be?
@@ -11,6 +11,9 @@
 5. What is the service model (e.g. single tennant vs multi-tennant in terms of business unit consumption) and in terms of Security Zone alignment? 
 6. What are the mechanisms of co-existence with the legacy world?
 7. Will ZBI in the Pod of the consumer (e.g. within Omnia) or will it become a POD of its own? (e.g. ODP/Exalogic/Exadata)
+8. WIll ZBI be (one day) external facing or purely internal facing?
+9. What will be the suitable workload types comsuming ZBI and what are the ZBI infrastructure services?
+10. What are key Iconic characteristics of the the ZBI?
 
 # Immediate Stage POD/POC Architecture, Features and POC Requirements
 1. What is the duration of the first/immediate round of POC?
@@ -35,6 +38,13 @@
 20. How is dynamic resource re-allocation done and at what granularity and speed?
 21. What are the test cases in the POC and what future POD use cases do these represent?
 22. What are the differences between the POC and corresponding POC in terms of the representativeness of the POC and the choice of equipment?
+23. How is compliance scanning being done>
+24. How is hardening done (Daniel W?)?
+25. How is storage back-up being done?
+26. How is SSL endpoints being managed?
+27. What network services will be in the future POD? What equivalents will be in tghe POC?
+28. What is the structure of the subnets in the POD/POC relative to use cases and consumption pattern?
+29. How is Hadoop supported in ZBI?
 
 # Team Composition Related Questions
 1. Do we have network resources engaged?
@@ -43,9 +53,3 @@
 3. Who are the security team members?
 4. Who is the architect?
 
-Backup
-Comliance Scans
-Encryption
-SSL end poitn question
-Network services question  LB/Service Discovery/DNS
-How many subnets deep?

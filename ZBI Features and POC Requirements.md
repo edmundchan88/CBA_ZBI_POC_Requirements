@@ -1,9 +1,6 @@
+# Stages of ZBI Evolution
 
-### Requirements - the Elephant in the Room!
-
-## Stages of ZBI Evolution
-
-# ZBI Features and POC Features
+## ZBI Features and POC Features
 1. What are the stages envisioned for the ZBI POD Implementation in terms of features offered and interaction with the legacy world?
 2. Which stages will the immediate POC cover for the future POD Architecture?
 3. How many stages of POC will there be?
@@ -15,7 +12,7 @@
 9. What will be the suitable workload types comsuming ZBI and what are the ZBI infrastructure services?
 10. What are key Iconic characteristics of the the ZBI?
 
-# Immediate Stage POD/POC Architecture, Features and POC Requirements
+## Immediate Stage POD/POC Architecture, Features and POC Requirements
 1. What is the duration of the first/immediate round of POC?
 2. What is the hardware configuration for the POC equipment? What are the data centre requirement?
 3. What are the services in terms of compute capacity, networking and storage?
@@ -46,7 +43,7 @@
 28. What is the structure of the subnets in the POD/POC relative to use cases and consumption pattern?
 29. How is Hadoop supported in ZBI?
 
-# Team Composition Related Questions
+## Team Composition Related Questions
 1. Do we have network resources engaged?
 2. Who will install and configure hardware for compute, storage & network?
 3. Who will configure and administer these components?
